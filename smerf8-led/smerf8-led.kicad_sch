@@ -166,6 +166,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -473,12 +580,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kicad-mza:ERF8-ERM8-040-DV"
+		(symbol "ERF8-ERM8-040-DV_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 12.7 0 0)
+			(property "Reference" "U1"
+				(at 0 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -486,14 +593,3142 @@
 				)
 			)
 			(property "Value" "ERF8-ERM8-040-DV"
-				(at -5.08 0 0)
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "kicad-mza:erf8-040-dv"
+			(property "Footprint" "Library:ERF8-040-EM2"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ERF8-ERM8-040-DV_1_1_1"
+				(rectangle
+					(start -7.62 27.94)
+					(end 7.62 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 25.4 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 22.86 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 20.32 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 17.78 0)
+					(length 2.54)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -20.32 0)
+					(length 2.54)
+					(name "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -22.86 0)
+					(length 2.54)
+					(name "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -25.4 0)
+					(length 2.54)
+					(name "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -33.02 90)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -33.02 90)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 25.4 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 22.86 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 20.32 180)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 17.78 180)
+					(length 2.54)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 15.24 180)
+					(length 2.54)
+					(name "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -17.78 180)
+					(length 2.54)
+					(name "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -20.32 180)
+					(length 2.54)
+					(name "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -22.86 180)
+					(length 2.54)
+					(name "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -25.4 180)
+					(length 2.54)
+					(name "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ERF8-ERM8-040-DV_1_2_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ERF8-ERM8-040-DV_1_3_1"
+				(rectangle
+					(start -5.08 25.4)
+					(end 5.08 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 22.86 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 20.32 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 17.78 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 15.24 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(name "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(name "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -22.86 0)
+					(length 2.54)
+					(name "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 22.86 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 20.32 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 17.78 180)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 15.24 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 10.16 180)
+					(length 2.54)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -15.24 180)
+					(length 2.54)
+					(name "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -17.78 180)
+					(length 2.54)
+					(name "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -20.32 180)
+					(length 2.54)
+					(name "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -22.86 180)
+					(length 2.54)
+					(name "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ERF8-ERM8-040-DV_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0 33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ERF8-ERM8-040-DV"
+				(at 0 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:ERF8-040-EM2"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ERF8-ERM8-040-DV_2_1_1"
+				(rectangle
+					(start -7.62 27.94)
+					(end 7.62 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 25.4 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 22.86 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 20.32 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 17.78 0)
+					(length 2.54)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -20.32 0)
+					(length 2.54)
+					(name "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -22.86 0)
+					(length 2.54)
+					(name "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -25.4 0)
+					(length 2.54)
+					(name "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -33.02 90)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -33.02 90)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 25.4 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 22.86 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 20.32 180)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 17.78 180)
+					(length 2.54)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 15.24 180)
+					(length 2.54)
+					(name "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -17.78 180)
+					(length 2.54)
+					(name "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -20.32 180)
+					(length 2.54)
+					(name "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -22.86 180)
+					(length 2.54)
+					(name "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -25.4 180)
+					(length 2.54)
+					(name "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ERF8-ERM8-040-DV_2_2_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ERF8-ERM8-040-DV_2_3_1"
+				(rectangle
+					(start -5.08 25.4)
+					(end 5.08 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 22.86 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 20.32 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 17.78 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 15.24 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(name "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(name "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -22.86 0)
+					(length 2.54)
+					(name "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 22.86 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 20.32 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 17.78 180)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 15.24 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 10.16 180)
+					(length 2.54)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -15.24 180)
+					(length 2.54)
+					(name "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -17.78 180)
+					(length 2.54)
+					(name "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -20.32 180)
+					(length 2.54)
+					(name "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -22.86 180)
+					(length 2.54)
+					(name "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kicad-mza:ERF8-ERM8-040-DV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0 33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ERF8-ERM8-040-DV"
+				(at 0 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:ERF8-040-EM2"
 				(at 12.7 0 0)
 				(effects
 					(font
@@ -892,7 +4127,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -5.08 -33.02 90)
 					(length 2.54)
 					(name "G1"
@@ -910,7 +4145,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -33.02 90)
 					(length 2.54)
 					(name "G2"
@@ -2138,6 +5373,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 39.37 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01821f0c-28de-4826-935d-605e63a7a10c")
 	)
 	(junction
 		(at 215.9 30.48)
@@ -2156,6 +5498,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08da824f-6c00-4d09-a5e5-44fc34cb1688")
+	)
+	(junction
+		(at 39.37 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0abbed8f-0a4f-4f98-98fa-43ffd9e68cb5")
+	)
+	(junction
+		(at 215.9 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ce90c2f-4552-4d5c-a67b-d785365c0705")
 	)
 	(junction
 		(at 246.38 35.56)
@@ -2194,6 +5548,12 @@
 		(uuid "298f9c96-9635-4907-8ae3-d7bf78cba626")
 	)
 	(junction
+		(at 39.37 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c54fc80-e35d-4735-852c-0a9e6d14c624")
+	)
+	(junction
 		(at 246.38 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2212,6 +5572,12 @@
 		(uuid "34630e1c-2ef4-4875-856c-5a2b940da51b")
 	)
 	(junction
+		(at 105.41 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35f2d571-6a68-400e-9c59-524ada83f885")
+	)
+	(junction
 		(at 246.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2222,6 +5588,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "428689a0-0564-4d5e-a983-bf6d93e662d8")
+	)
+	(junction
+		(at 105.41 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46846920-12cf-45f0-a97f-ab64c80d211f")
+	)
+	(junction
+		(at 39.37 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47ed8c5a-cda5-45bf-b8c5-346fb21244e7")
 	)
 	(junction
 		(at 246.38 27.94)
@@ -2236,16 +5614,46 @@
 		(uuid "48fdbf8f-a055-4c21-ac39-4ba01e73254c")
 	)
 	(junction
+		(at 105.41 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d66f3a-a4de-484e-9888-1d732df371e7")
+	)
+	(junction
+		(at 105.41 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5919db69-da2d-450e-a3f9-61dbc9bd9401")
+	)
+	(junction
 		(at 215.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "599f0324-58d9-4803-8409-330298179b3b")
 	)
 	(junction
+		(at 39.37 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f1675d-7d7c-4670-928a-c67ae762d0c8")
+	)
+	(junction
+		(at 39.37 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69f22ecd-779e-4687-92d5-dca0581366e7")
+	)
+	(junction
 		(at 215.9 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ad149a3-d865-4897-9035-8c72a0e7a29b")
+	)
+	(junction
+		(at 39.37 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6af82d75-9563-4e11-a96a-e40f531a56df")
 	)
 	(junction
 		(at 246.38 30.48)
@@ -2272,10 +5680,40 @@
 		(uuid "712b7449-c3c0-4f22-8e6f-51f70dba5845")
 	)
 	(junction
+		(at 39.37 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7252fe45-e835-433a-b984-9d70dfd96b82")
+	)
+	(junction
+		(at 105.41 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b1ee8e8-7de2-477f-8952-266fc262548d")
+	)
+	(junction
+		(at 39.37 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d12e2ee-f396-41ef-82fb-1f0559c5c38e")
+	)
+	(junction
 		(at 246.38 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d613042-8d1b-4476-943b-e9168681eaaa")
+	)
+	(junction
+		(at 39.37 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80e3ff79-24e4-421c-85f7-4d44a154f0a2")
+	)
+	(junction
+		(at 105.41 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "837e7130-8a30-4d49-b3fc-81fea148d4a3")
 	)
 	(junction
 		(at 215.9 43.18)
@@ -2290,16 +5728,40 @@
 		(uuid "8adc9672-fc92-49ad-bcbc-2941ff5c05cb")
 	)
 	(junction
+		(at 105.41 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf7fd53-c7a2-40a9-bfa3-3452ff7f5d0b")
+	)
+	(junction
 		(at 228.6 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8db3da4c-36b9-4425-8fe6-72d598f77eef")
 	)
 	(junction
+		(at 105.41 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fcd5c7f-63db-44fc-97af-007dc2e41114")
+	)
+	(junction
+		(at 39.37 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91fb3ded-18a0-4cac-b716-876e3e28f4e6")
+	)
+	(junction
 		(at 215.9 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "923cff92-92d7-4d15-9434-2fbd53d6a913")
+	)
+	(junction
+		(at 39.37 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96ec1f3f-588e-4f2c-beba-7395fe0dfe16")
 	)
 	(junction
 		(at 246.38 33.02)
@@ -2314,16 +5776,70 @@
 		(uuid "9918b07b-5f3b-4dc7-8f45-38fd5441a40d")
 	)
 	(junction
+		(at 39.37 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a824c1eb-2c3a-472e-ac51-9e8c00e6fc90")
+	)
+	(junction
+		(at 105.41 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8357538-79d9-4ab3-957a-ae5bdd9f4bd6")
+	)
+	(junction
+		(at 105.41 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab30e1f5-1c81-4802-9f5d-cdb30f64dcf0")
+	)
+	(junction
+		(at 105.41 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b232f503-d68d-4289-9020-304162323f2e")
+	)
+	(junction
 		(at 246.38 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2bc46b1-0181-4c48-bb41-99e4dee283b2")
 	)
 	(junction
+		(at 39.37 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d0233a-4a7e-40dc-947a-b6e5c6569ca0")
+	)
+	(junction
+		(at 105.41 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9a164db-8871-4974-8645-30e9d262fd19")
+	)
+	(junction
+		(at 105.41 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb7d7125-7a86-4a93-b424-85f1263bbdef")
+	)
+	(junction
+		(at 105.41 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c74622a5-7281-4ffc-9540-97ae7369d78e")
+	)
+	(junction
 		(at 215.9 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8972c26-8919-465d-8c48-059afe795921")
+	)
+	(junction
+		(at 105.41 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccf73cfd-b055-43a9-a805-fa3cd2c40f2a")
 	)
 	(junction
 		(at 215.9 55.88)
@@ -2338,10 +5854,22 @@
 		(uuid "db30da1d-cac7-4ba0-bb07-461b1d601ad9")
 	)
 	(junction
+		(at 105.41 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddc1a75d-83b7-46cb-9ba0-9bfa52f46b4c")
+	)
+	(junction
 		(at 246.38 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0486157-fd98-4233-be45-5eafae24e127")
+	)
+	(junction
+		(at 39.37 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c22ff7-30bb-4525-afc5-05d512bacaf8")
 	)
 	(junction
 		(at 215.9 40.64)
@@ -2372,6 +5900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7a3025e-0412-4f06-8b17-3d7232e5fbf2")
+	)
+	(junction
+		(at 39.37 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f93e6fa6-15a0-42a1-8f9e-7ef4d274c5a1")
 	)
 	(junction
 		(at 215.9 73.66)
@@ -2413,7 +5947,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 176.53) (xy 118.11 176.53)
+			(xy 101.6 176.53) (xy 105.41 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +5957,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 87.63) (xy 118.11 87.63)
+			(xy 101.6 87.63) (xy 105.41 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2453,7 +5987,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 111.76) (xy 54.61 111.76)
+			(xy 36.83 111.76) (xy 39.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +6017,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 66.04) (xy 41.91 66.04)
+			(xy 22.86 66.04) (xy 29.21 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 133.35) (xy 105.41 133.35)
+			(xy 87.63 133.35) (xy 93.98 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +6077,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 34.29) (xy 54.61 34.29)
+			(xy 36.83 34.29) (xy 39.37 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2603,7 +6137,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 166.37) (xy 41.91 166.37)
+			(xy 22.86 166.37) (xy 29.21 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +6147,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 166.37) (xy 105.41 166.37)
+			(xy 105.41 133.35) (xy 118.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd4fc56-788c-470b-bf06-2002cf661c6a")
+	)
+	(wire
+		(pts
+			(xy 105.41 87.63) (xy 118.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df807dc-08ec-474c-898c-39ce336f4658")
+	)
+	(wire
+		(pts
+			(xy 87.63 166.37) (xy 93.98 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2630,6 +6184,16 @@
 			(type default)
 		)
 		(uuid "1ec6f289-da59-4d46-b766-8e275f3abe81")
+	)
+	(wire
+		(pts
+			(xy 105.41 144.78) (xy 118.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef24cd1-68ea-41b7-849b-bf0142e6bb52")
 	)
 	(wire
 		(pts
@@ -2653,7 +6217,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 166.37) (xy 118.11 166.37)
+			(xy 101.6 166.37) (xy 105.41 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +6237,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 166.37) (xy 54.61 166.37)
+			(xy 36.83 166.37) (xy 39.37 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2703,7 +6267,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 66.04) (xy 54.61 66.04)
+			(xy 36.83 66.04) (xy 39.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2713,7 +6277,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 144.78) (xy 105.41 144.78)
+			(xy 87.63 144.78) (xy 93.98 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +6327,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 34.29) (xy 105.41 34.29)
+			(xy 87.63 34.29) (xy 93.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +6337,27 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 99.06) (xy 41.91 99.06)
+			(xy 39.37 111.76) (xy 54.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3907d147-3dec-4027-b17a-e1005531bef1")
+	)
+	(wire
+		(pts
+			(xy 39.37 44.45) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac388c0-ead6-459a-9a2c-90263303803f")
+	)
+	(wire
+		(pts
+			(xy 22.86 99.06) (xy 29.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2803,7 +6387,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 123.19) (xy 41.91 123.19)
+			(xy 22.86 123.19) (xy 29.21 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +6417,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 111.76) (xy 105.41 111.76)
+			(xy 87.63 111.76) (xy 93.98 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2853,7 +6437,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 154.94) (xy 54.61 154.94)
+			(xy 36.83 154.94) (xy 39.37 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2873,7 +6457,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 123.19) (xy 54.61 123.19)
+			(xy 36.83 123.19) (xy 39.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2893,7 +6477,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 133.35) (xy 54.61 133.35)
+			(xy 39.37 66.04) (xy 54.61 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c4f0dd-62e1-4176-9c0f-f0da34a83f7d")
+	)
+	(wire
+		(pts
+			(xy 36.83 133.35) (xy 39.37 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2913,7 +6507,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 154.94) (xy 41.91 154.94)
+			(xy 22.86 154.94) (xy 29.21 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +6537,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 187.96) (xy 41.91 187.96)
+			(xy 22.86 187.96) (xy 29.21 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2983,6 +6577,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 166.37) (xy 118.11 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d76e88-5f64-4ac0-ad03-e67a725958a8")
+	)
+	(wire
+		(pts
 			(xy 215.9 25.4) (xy 220.98 25.4)
 		)
 		(stroke
@@ -2993,7 +6597,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 22.86) (xy 41.91 22.86)
+			(xy 22.86 22.86) (xy 29.21 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3013,7 +6617,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 77.47) (xy 54.61 77.47)
+			(xy 36.83 77.47) (xy 39.37 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3063,13 +6667,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 118.11 99.06)
+			(xy 101.6 99.06) (xy 105.41 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5fe69b41-48b3-4a93-911d-bbf92ce003de")
+	)
+	(wire
+		(pts
+			(xy 105.41 123.19) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b65da9-7026-420c-b54e-12bc5408b37a")
 	)
 	(wire
 		(pts
@@ -3080,6 +6694,16 @@
 			(type default)
 		)
 		(uuid "62938f87-a50d-4b1b-8121-7ffb55f47ceb")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 118.11 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62de8203-a521-4486-a0bf-17defca11d48")
 	)
 	(wire
 		(pts
@@ -3133,7 +6757,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 44.45) (xy 118.11 44.45)
+			(xy 39.37 187.96) (xy 54.61 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69670b28-af1e-4b99-8ea7-e917cf2104a3")
+	)
+	(wire
+		(pts
+			(xy 101.6 44.45) (xy 105.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3163,13 +6797,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 176.53) (xy 41.91 176.53)
+			(xy 22.86 176.53) (xy 29.21 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e915c7c-3323-40d4-8b28-9b23674a8e9a")
+	)
+	(wire
+		(pts
+			(xy 105.41 34.29) (xy 118.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f56d171-926c-48fd-89a2-f266df3da3c1")
 	)
 	(wire
 		(pts
@@ -3213,13 +6857,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 87.63) (xy 54.61 87.63)
+			(xy 36.83 87.63) (xy 39.37 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77ff6902-f7d2-483e-96e5-f1cba5a57f1d")
+	)
+	(wire
+		(pts
+			(xy 39.37 166.37) (xy 54.61 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781ed7ea-e2f5-4a16-be9f-5666caec9ca5")
 	)
 	(wire
 		(pts
@@ -3233,7 +6887,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 123.19) (xy 105.41 123.19)
+			(xy 105.41 55.88) (xy 118.11 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2ef966-7af9-4a75-bfe4-3eeb01833e90")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 93.98 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3263,6 +6927,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 77.47) (xy 54.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81404f9e-927a-4257-9756-14d42dc5ef71")
+	)
+	(wire
+		(pts
 			(xy 215.9 63.5) (xy 220.98 63.5)
 		)
 		(stroke
@@ -3283,7 +6957,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 34.29) (xy 118.11 34.29)
+			(xy 101.6 34.29) (xy 105.41 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3303,7 +6977,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 118.11 111.76)
+			(xy 101.6 111.76) (xy 105.41 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3323,6 +6997,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 154.94) (xy 118.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9cb2a8-3e23-473c-a209-6c756118e47a")
+	)
+	(wire
+		(pts
+			(xy 39.37 123.19) (xy 54.61 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8baffbc4-787c-47c3-aef3-1e53f72a4150")
+	)
+	(wire
+		(pts
 			(xy 215.9 66.04) (xy 215.9 68.58)
 		)
 		(stroke
@@ -3333,7 +7027,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 187.96) (xy 54.61 187.96)
+			(xy 36.83 187.96) (xy 39.37 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3343,7 +7037,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 187.96) (xy 105.41 187.96)
+			(xy 87.63 187.96) (xy 93.98 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3363,7 +7057,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 144.78) (xy 41.91 144.78)
+			(xy 22.86 144.78) (xy 29.21 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3373,13 +7067,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 55.88) (xy 118.11 55.88)
+			(xy 101.6 55.88) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9258949c-a506-493a-9b02-62778d44d65e")
+	)
+	(wire
+		(pts
+			(xy 39.37 55.88) (xy 54.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9424ced1-e490-4110-8d2c-aa946df40a4d")
 	)
 	(wire
 		(pts
@@ -3403,7 +7107,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 176.53) (xy 105.41 176.53)
+			(xy 87.63 176.53) (xy 93.98 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3413,7 +7117,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 87.63) (xy 105.41 87.63)
+			(xy 87.63 87.63) (xy 93.98 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3423,7 +7127,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 22.86) (xy 118.11 22.86)
+			(xy 39.37 34.29) (xy 54.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d602fe-ac91-45d5-8b02-6ba538fbda97")
+	)
+	(wire
+		(pts
+			(xy 101.6 22.86) (xy 105.41 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3463,7 +7177,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 22.86) (xy 105.41 22.86)
+			(xy 87.63 22.86) (xy 93.98 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3480,6 +7194,26 @@
 			(type default)
 		)
 		(uuid "a0e0e886-d243-4bd2-826b-cdac471c0a32")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 118.11 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fd61dc-794a-404d-91d5-00ddd862479e")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 118.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30d79c3-d4b3-42fc-ac52-3aaed64e2502")
 	)
 	(wire
 		(pts
@@ -3503,7 +7237,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 66.04) (xy 118.11 66.04)
+			(xy 101.6 66.04) (xy 105.41 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3513,7 +7247,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 187.96) (xy 118.11 187.96)
+			(xy 101.6 187.96) (xy 105.41 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3523,7 +7257,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 77.47) (xy 41.91 77.47)
+			(xy 22.86 77.47) (xy 29.21 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3553,7 +7287,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 154.94) (xy 105.41 154.94)
+			(xy 87.63 154.94) (xy 93.98 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3583,7 +7317,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 99.06) (xy 105.41 99.06)
+			(xy 87.63 99.06) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3603,7 +7337,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 176.53) (xy 54.61 176.53)
+			(xy 36.83 176.53) (xy 39.37 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3623,6 +7357,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 176.53) (xy 118.11 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b3d5ab-1774-4f7e-a6de-244c2136b37e")
+	)
+	(wire
+		(pts
 			(xy 246.38 45.72) (xy 246.38 50.8)
 		)
 		(stroke
@@ -3633,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 41.91 55.88)
+			(xy 22.86 55.88) (xy 29.21 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3653,7 +7397,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 44.45) (xy 54.61 44.45)
+			(xy 36.83 44.45) (xy 39.37 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3703,7 +7447,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 118.11 77.47)
+			(xy 101.6 77.47) (xy 105.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3730,6 +7474,16 @@
 			(type default)
 		)
 		(uuid "bc7428a2-d2cd-4cdf-a0cc-b901bd690d18")
+	)
+	(wire
+		(pts
+			(xy 39.37 176.53) (xy 54.61 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc945640-8766-459f-8b0a-3c71c23f6a80")
 	)
 	(wire
 		(pts
@@ -3773,7 +7527,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 111.76) (xy 41.91 111.76)
+			(xy 22.86 111.76) (xy 29.21 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3783,7 +7537,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 144.78) (xy 118.11 144.78)
+			(xy 101.6 144.78) (xy 105.41 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3803,7 +7557,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 44.45) (xy 41.91 44.45)
+			(xy 22.86 44.45) (xy 29.21 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3813,7 +7567,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 154.94) (xy 118.11 154.94)
+			(xy 101.6 154.94) (xy 105.41 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3850,6 +7604,16 @@
 			(type default)
 		)
 		(uuid "cbff3db2-8ecb-4b89-9a63-f5ccea602c27")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 118.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2c1ca7-6fe4-400a-8844-5e1a88c24b01")
 	)
 	(wire
 		(pts
@@ -3913,7 +7677,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 133.35) (xy 41.91 133.35)
+			(xy 22.86 133.35) (xy 29.21 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3973,7 +7737,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 123.19) (xy 118.11 123.19)
+			(xy 101.6 123.19) (xy 105.41 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3983,7 +7747,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 133.35) (xy 118.11 133.35)
+			(xy 101.6 133.35) (xy 105.41 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4013,7 +7777,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 44.45) (xy 105.41 44.45)
+			(xy 87.63 44.45) (xy 93.98 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4023,7 +7787,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 105.41 77.47)
+			(xy 87.63 77.47) (xy 93.98 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4033,7 +7797,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 55.88) (xy 54.61 55.88)
+			(xy 36.83 55.88) (xy 39.37 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4053,7 +7817,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 144.78) (xy 54.61 144.78)
+			(xy 36.83 144.78) (xy 39.37 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +7827,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 34.29) (xy 41.91 34.29)
+			(xy 22.86 34.29) (xy 29.21 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4083,13 +7847,43 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 87.63) (xy 41.91 87.63)
+			(xy 39.37 22.86) (xy 54.61 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfeb86b1-fd8d-4bec-bef0-17908f8c335c")
+	)
+	(wire
+		(pts
+			(xy 105.41 44.45) (xy 118.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffd8455-630c-49f7-aa2d-f3c5f2d4bd99")
+	)
+	(wire
+		(pts
+			(xy 22.86 87.63) (xy 29.21 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0426152-2021-4925-ad8c-5b860cee1fcc")
+	)
+	(wire
+		(pts
+			(xy 39.37 87.63) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dbf1de-2ac1-4075-9fd3-ee7e4bd90ed5")
 	)
 	(wire
 		(pts
@@ -4103,6 +7897,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 154.94) (xy 54.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e362e0d1-2dcf-476b-9aa7-dfdad98ca6cc")
+	)
+	(wire
+		(pts
 			(xy 215.9 43.18) (xy 215.9 45.72)
 		)
 		(stroke
@@ -4113,7 +7917,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 105.41 55.88)
+			(xy 39.37 133.35) (xy 54.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63a4470-bf8b-4d37-a174-5d11d1338aed")
+	)
+	(wire
+		(pts
+			(xy 39.37 99.06) (xy 54.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dddbc7-4deb-4518-8071-d0c28f6099d0")
+	)
+	(wire
+		(pts
+			(xy 87.63 55.88) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4123,7 +7947,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 66.04) (xy 105.41 66.04)
+			(xy 87.63 66.04) (xy 93.98 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4133,13 +7957,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 22.86) (xy 54.61 22.86)
+			(xy 36.83 22.86) (xy 39.37 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec3963fc-9d56-48c8-861f-a7e07516b688")
+	)
+	(wire
+		(pts
+			(xy 105.41 187.96) (xy 118.11 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25b053f-94c2-49b3-93da-19ef6456f7a3")
 	)
 	(wire
 		(pts
@@ -4150,6 +7984,16 @@
 			(type default)
 		)
 		(uuid "f2bc0af1-9004-49fb-90f9-c1967e7521d0")
+	)
+	(wire
+		(pts
+			(xy 39.37 144.78) (xy 54.61 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a549a2-f123-464b-863d-7ce9eae55642")
 	)
 	(wire
 		(pts
@@ -4193,7 +8037,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 99.06) (xy 54.61 99.06)
+			(xy 36.83 99.06) (xy 39.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4203,7 +8047,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 81.28) (xy 226.06 83.82)
+			(xy 105.41 22.86) (xy 118.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd108d25-27be-40f2-b630-c9410a63089b")
+	)
+	(wire
+		(pts
+			(xy 226.06 81.28) (xy 226.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5003,7 +8857,7 @@
 			)
 		)
 	)
-	(global_label "sig04"
+	(global_label "sig16"
 		(shape input)
 		(at 156.21 52.07 180)
 		(fields_autoplaced yes)
@@ -5179,7 +9033,7 @@
 			)
 		)
 	)
-	(global_label "sig02"
+	(global_label "sig17"
 		(shape input)
 		(at 156.21 31.75 180)
 		(fields_autoplaced yes)
@@ -5597,7 +9451,7 @@
 			)
 		)
 	)
-	(global_label "sig03"
+	(global_label "sig15"
 		(shape input)
 		(at 156.21 41.91 180)
 		(fields_autoplaced yes)
@@ -5709,7 +9563,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 154.94 0)
+		(at 33.02 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5718,7 +9572,7 @@
 		(fields_autoplaced yes)
 		(uuid "023cda10-d517-42ea-91a0-ddcff1503105")
 		(property "Reference" "D13"
-			(at 44.1325 148.59 0)
+			(at 31.4325 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +9580,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 151.13 0)
+			(at 31.4325 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +9588,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 154.94 0)
+			(at 33.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +9597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 154.94 0)
+			(at 33.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +9606,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 154.94 0)
+			(at 33.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +9615,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 154.94 0)
+			(at 33.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +9776,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 111.76 0)
+		(at 97.79 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5931,7 +9785,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a17a0e2-c408-4799-82da-627fbac9c1ea")
 		(property "Reference" "D25"
-			(at 107.6325 105.41 0)
+			(at 96.2025 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +9793,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 107.95 0)
+			(at 96.2025 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +9801,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +9810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +9819,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +9828,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 111.76 0)
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,6 +9846,140 @@
 			(project "smerf8-led"
 				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cddb3a6-4a25-4e3a-ad57-79798f4a5376")
+		(property "Reference" "TP31"
+			(at 107.95 171.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 174.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8747fc0f-fafe-4c87-84f5-f40cd49fc62e")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "104c4163-e9a4-4fd0-b2a3-ce044f5bdd8f")
+		(property "Reference" "TP10"
+			(at 41.91 118.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 121.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac3ca599-ed1a-465f-9d9a-1fcda7ddf487")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -6067,7 +10055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 176.53 270)
+		(at 22.86 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6076,7 +10064,7 @@
 		(fields_autoplaced yes)
 		(uuid "148e90e2-0111-4461-b78e-65e6b07bc6e9")
 		(property "Reference" "#PWR016"
-			(at 29.21 176.53 0)
+			(at 16.51 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +10073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 176.5299 90)
+			(at 19.05 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +10082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 176.53 0)
+			(at 22.86 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +10091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 176.53 0)
+			(at 22.86 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +10100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 176.53 0)
+			(at 22.86 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,7 +10258,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 87.63 0)
+		(at 97.79 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6279,7 +10267,7 @@
 		(fields_autoplaced yes)
 		(uuid "1949bebe-5d75-4a8f-a20d-0afb33eb4da0")
 		(property "Reference" "D23"
-			(at 107.6325 81.28 0)
+			(at 96.2025 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +10275,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 83.82 0)
+			(at 96.2025 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +10283,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 87.63 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +10292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 87.63 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +10301,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 87.63 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +10310,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 87.63 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +10335,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 87.63 0)
+		(at 33.02 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6356,7 +10344,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b635939-240f-4447-a686-a377374635e9")
 		(property "Reference" "D7"
-			(at 44.1325 81.28 0)
+			(at 31.4325 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +10352,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 83.82 0)
+			(at 31.4325 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +10360,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 87.63 0)
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +10369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 87.63 0)
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +10378,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 87.63 0)
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +10387,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 87.63 0)
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +10412,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 99.06 0)
+		(at 97.79 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6433,7 +10421,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dcab257-1c01-4f92-81af-4ed66177f95e")
 		(property "Reference" "D24"
-			(at 107.6325 92.71 0)
+			(at 96.2025 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +10429,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 95.25 0)
+			(at 96.2025 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +10437,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 99.06 0)
+			(at 97.79 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +10446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 99.06 0)
+			(at 97.79 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +10455,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 99.06 0)
+			(at 97.79 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +10464,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 99.06 0)
+			(at 97.79 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +10489,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 99.06 270)
+		(at 22.86 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6510,7 +10498,7 @@
 		(fields_autoplaced yes)
 		(uuid "208adab4-72fc-46a1-9d53-ad5386be03e6")
 		(property "Reference" "#PWR09"
-			(at 29.21 99.06 0)
+			(at 16.51 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +10507,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 99.0599 90)
+			(at 19.05 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +10516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 99.06 0)
+			(at 22.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +10525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 99.06 0)
+			(at 22.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +10534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 99.06 0)
+			(at 22.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +10556,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 123.19 270)
+		(at 22.86 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6577,7 +10565,7 @@
 		(fields_autoplaced yes)
 		(uuid "29a844b2-e89d-468e-ada1-5e1039f35654")
 		(property "Reference" "#PWR011"
-			(at 29.21 123.19 0)
+			(at 16.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +10574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 123.1899 90)
+			(at 19.05 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +10583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 123.19 0)
+			(at 22.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,7 +10592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 123.19 0)
+			(at 22.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +10601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 123.19 0)
+			(at 22.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +10623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 99.06 270)
+		(at 87.63 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6644,7 +10632,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a37548c-485d-43e4-874a-fa0400e7efbb")
 		(property "Reference" "#PWR025"
-			(at 92.71 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +10641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 99.0599 90)
+			(at 83.82 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6662,7 +10650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 99.06 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +10659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 99.06 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +10668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 99.06 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +10758,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 133.35 0)
+		(at 97.79 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6779,7 +10767,7 @@
 		(fields_autoplaced yes)
 		(uuid "340452eb-3ac9-4e37-9ed7-3498a09be729")
 		(property "Reference" "D27"
-			(at 107.6325 127 0)
+			(at 96.2025 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +10775,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 129.54 0)
+			(at 96.2025 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +10783,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 133.35 0)
+			(at 97.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +10792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 133.35 0)
+			(at 97.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +10801,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 133.35 0)
+			(at 97.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +10810,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 133.35 0)
+			(at 97.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +10903,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 77.47 270)
+		(at 22.86 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6924,7 +10912,7 @@
 		(fields_autoplaced yes)
 		(uuid "35704060-8382-4bc7-bf50-81279b51c584")
 		(property "Reference" "#PWR07"
-			(at 29.21 77.47 0)
+			(at 16.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +10921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 77.4699 90)
+			(at 19.05 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +10930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 77.47 0)
+			(at 22.86 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +10939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 77.47 0)
+			(at 22.86 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +10948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 77.47 0)
+			(at 22.86 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,6 +10963,73 @@
 			(project "smerf8-led"
 				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35bdb64f-d62a-4796-899e-498d43f14ccc")
+		(property "Reference" "TP12"
+			(at 41.91 140.2079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 142.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed1f9e4f-7d1c-4eb1-b2f0-4821a7ec3b72")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -7049,7 +11104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 111.76 270)
+		(at 22.86 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7058,7 +11113,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cb84053-8a10-4d47-9247-acb31ee8d969")
 		(property "Reference" "#PWR010"
-			(at 29.21 111.76 0)
+			(at 16.51 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +11122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 111.7599 90)
+			(at 19.05 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +11131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 111.76 0)
+			(at 22.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +11140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 111.76 0)
+			(at 22.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +11149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 111.76 0)
+			(at 22.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,6 +11164,73 @@
 			(project "smerf8-led"
 				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d6dec04-44de-43e1-8fb9-8c53bc3af7a8")
+		(property "Reference" "TP30"
+			(at 107.95 161.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37489787-5a1a-4b38-acef-8e56dc75555d")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -7184,7 +11306,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 34.29 0)
+		(at 97.79 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7193,7 +11315,7 @@
 		(fields_autoplaced yes)
 		(uuid "47077c89-5106-4282-ae4a-797455854057")
 		(property "Reference" "D18"
-			(at 107.6325 27.94 0)
+			(at 96.2025 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +11323,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 30.48 0)
+			(at 96.2025 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +11331,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 34.29 0)
+			(at 97.79 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,7 +11340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 34.29 0)
+			(at 97.79 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +11349,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 34.29 0)
+			(at 97.79 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +11358,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 34.29 0)
+			(at 97.79 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +11383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 55.88 270)
+		(at 87.63 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7270,7 +11392,7 @@
 		(fields_autoplaced yes)
 		(uuid "474189fd-481d-45d3-8403-2416dd37be9c")
 		(property "Reference" "#PWR021"
-			(at 92.71 55.88 0)
+			(at 81.28 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +11401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 55.8799 90)
+			(at 83.82 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +11410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 55.88 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +11419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 55.88 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +11428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 55.88 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +11450,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 187.96 0)
+		(at 33.02 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7337,7 +11459,7 @@
 		(fields_autoplaced yes)
 		(uuid "487ccca7-2baa-471d-8372-5a8d6da9bb12")
 		(property "Reference" "D16"
-			(at 44.1325 181.61 0)
+			(at 31.4325 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +11467,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 184.15 0)
+			(at 31.4325 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +11475,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 187.96 0)
+			(at 33.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +11484,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 187.96 0)
+			(at 33.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +11493,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 187.96 0)
+			(at 33.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +11502,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 187.96 0)
+			(at 33.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,6 +11594,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49c0d5e1-4ddb-4263-a6de-471e8b6682c0")
+		(property "Reference" "TP15"
+			(at 41.91 171.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 174.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df00e817-3752-46e7-8d84-f2680e4e52f0")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a9a3854-b5c7-45f6-a47a-6ab548983085")
+		(property "Reference" "TP16"
+			(at 41.91 183.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 185.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04a4ccb3-223a-4bd2-a08a-7e1cd8f0ddb7")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 41.91 90)
 		(unit 1)
@@ -7533,6 +11789,73 @@
 			(project ""
 				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bfe6653-4160-4278-b2f9-e12d672f37e3")
+		(property "Reference" "TP17"
+			(at 107.95 18.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29a5039b-c6ee-45a8-840c-e076d0f4d788")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -7608,7 +11931,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 111.76 270)
+		(at 87.63 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7617,7 +11940,7 @@
 		(fields_autoplaced yes)
 		(uuid "51479ee8-1140-44cd-aca8-2aa78a062e59")
 		(property "Reference" "#PWR026"
-			(at 92.71 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +11949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 111.7599 90)
+			(at 83.82 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +11958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 111.76 0)
+			(at 87.63 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +11967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 111.76 0)
+			(at 87.63 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +11976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 111.76 0)
+			(at 87.63 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,7 +11998,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 187.96 270)
+		(at 22.86 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7684,7 +12007,7 @@
 		(fields_autoplaced yes)
 		(uuid "53a09559-e4bd-4958-ac77-a3e4c8ac1380")
 		(property "Reference" "#PWR017"
-			(at 29.21 187.96 0)
+			(at 16.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +12016,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 187.9599 90)
+			(at 19.05 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +12025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 187.96 0)
+			(at 22.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +12034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 187.96 0)
+			(at 22.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +12043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 187.96 0)
+			(at 22.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,8 +12064,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54689936-b0ce-4016-824a-8bac9b2fecc0")
+		(property "Reference" "TP23"
+			(at 107.95 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b479bf38-9bf4-47f3-87f2-333057192549")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 99.06 34.29 270)
+		(at 87.63 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7751,7 +12141,7 @@
 		(fields_autoplaced yes)
 		(uuid "54c93bf1-6c38-4ed7-a2de-d74030534f86")
 		(property "Reference" "#PWR019"
-			(at 92.71 34.29 0)
+			(at 81.28 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +12150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 34.2899 90)
+			(at 83.82 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +12159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 34.29 0)
+			(at 87.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +12168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 34.29 0)
+			(at 87.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +12177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 34.29 0)
+			(at 87.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +12199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 22.86 270)
+		(at 87.63 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7818,7 +12208,7 @@
 		(fields_autoplaced yes)
 		(uuid "559b038a-efad-40c8-b996-f2eb20f2075a")
 		(property "Reference" "#PWR018"
-			(at 92.71 22.86 0)
+			(at 81.28 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +12217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 22.8599 90)
+			(at 83.82 22.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +12226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 22.86 0)
+			(at 87.63 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,7 +12235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 22.86 0)
+			(at 87.63 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,7 +12244,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 22.86 0)
+			(at 87.63 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,6 +12265,7 @@
 		)
 	)
 	(symbol
+		(lib_name "ERF8-ERM8-040-DV_2")
 		(lib_id "kicad-mza:ERF8-ERM8-040-DV")
 		(at 231.14 48.26 0)
 		(unit 1)
@@ -7900,7 +12291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cody:ERF8-040-EM2"
+		(property "Footprint" "Library:ERF8-040-EM2"
 			(at 243.84 48.26 0)
 			(effects
 				(font
@@ -8251,7 +12642,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 55.88 0)
+		(at 97.79 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8260,7 +12651,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b7d4308-4ab4-49ea-9453-fb440b4849c7")
 		(property "Reference" "D20"
-			(at 107.6325 49.53 0)
+			(at 96.2025 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +12659,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 52.07 0)
+			(at 96.2025 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +12667,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 55.88 0)
+			(at 97.79 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +12676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 55.88 0)
+			(at 97.79 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +12685,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 55.88 0)
+			(at 97.79 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +12694,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 55.88 0)
+			(at 97.79 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,33 +12718,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 109.22 44.45 0)
+		(lib_id "Connector:TestPoint")
+		(at 105.41 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60a76610-5f8c-4d4e-87da-3ddc906ab30a")
-		(property "Reference" "D19"
-			(at 107.6325 38.1 0)
+		(uuid "5fcd7e64-f417-480d-9ee3-430b2564814c")
+		(property "Reference" "TP20"
+			(at 107.95 51.3079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 107.6325 40.64 0)
+		(property "Value" "TestPoint"
+			(at 107.95 53.8479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 44.45 0)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +12755,72 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 44.45 0)
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce04aeb1-e53d-4807-a6e8-e8e25dbe1e8a")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 97.79 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60a76610-5f8c-4d4e-87da-3ddc906ab30a")
+		(property "Reference" "D19"
+			(at 96.2025 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 96.2025 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 97.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +12829,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 44.45 0)
+			(at 97.79 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +12838,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 44.45 0)
+			(at 97.79 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +12931,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 34.29 0)
+		(at 33.02 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8482,7 +12940,7 @@
 		(fields_autoplaced yes)
 		(uuid "66298c09-dddf-4a8e-ad5b-e484a56cdd37")
 		(property "Reference" "D2"
-			(at 44.1325 27.94 0)
+			(at 31.4325 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +12948,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 30.48 0)
+			(at 31.4325 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +12956,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 34.29 0)
+			(at 33.02 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,7 +12965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 34.29 0)
+			(at 33.02 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8516,7 +12974,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 34.29 0)
+			(at 33.02 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8525,7 +12983,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 34.29 0)
+			(at 33.02 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +13008,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 77.47 0)
+		(at 97.79 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8559,7 +13017,7 @@
 		(fields_autoplaced yes)
 		(uuid "66f6a0e0-fb3d-449a-856f-48f52052353d")
 		(property "Reference" "D22"
-			(at 107.6325 71.12 0)
+			(at 96.2025 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,7 +13025,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 73.66 0)
+			(at 96.2025 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8575,7 +13033,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 77.47 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8584,7 +13042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 77.47 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +13051,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 77.47 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +13060,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 77.47 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +13153,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 66.04 0)
+		(at 97.79 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8704,7 +13162,7 @@
 		(fields_autoplaced yes)
 		(uuid "6be2f9b9-20c8-4f50-a83d-6bca1d70180d")
 		(property "Reference" "D21"
-			(at 107.6325 59.69 0)
+			(at 96.2025 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +13170,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 62.23 0)
+			(at 96.2025 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +13178,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 66.04 0)
+			(at 97.79 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +13187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 66.04 0)
+			(at 97.79 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +13196,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 66.04 0)
+			(at 97.79 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +13205,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 66.04 0)
+			(at 97.79 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +13230,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 55.88 270)
+		(at 22.86 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8781,7 +13239,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e428be1-3d3f-4b58-a7da-413e52ef9552")
 		(property "Reference" "#PWR05"
-			(at 29.21 55.88 0)
+			(at 16.51 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +13248,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 55.8799 90)
+			(at 19.05 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +13257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 55.88 0)
+			(at 22.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +13266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 55.88 0)
+			(at 22.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +13275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 55.88 0)
+			(at 22.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,7 +13297,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 66.04 0)
+		(at 33.02 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8848,7 +13306,7 @@
 		(fields_autoplaced yes)
 		(uuid "704d9107-e016-482a-9d17-3d3427cd1da2")
 		(property "Reference" "D5"
-			(at 44.1325 59.69 0)
+			(at 31.4325 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +13314,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 62.23 0)
+			(at 31.4325 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +13322,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 66.04 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +13331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 66.04 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +13340,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 66.04 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +13349,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 66.04 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,8 +13373,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71ff72cb-6af0-4db4-aa67-012e93a789b0")
+		(property "Reference" "TP27"
+			(at 107.95 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 131.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2e6dd6-795f-4a3f-9077-92bcebc42af7")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 99.06 187.96 270)
+		(at 87.63 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8925,7 +13450,7 @@
 		(fields_autoplaced yes)
 		(uuid "732bc7c9-e084-4165-b5bf-20d6caaaddce")
 		(property "Reference" "#PWR033"
-			(at 92.71 187.96 0)
+			(at 81.28 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,7 +13459,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 187.9599 90)
+			(at 83.82 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +13468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 187.96 0)
+			(at 87.63 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +13477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 187.96 0)
+			(at 87.63 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8961,7 +13486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 187.96 0)
+			(at 87.63 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +13508,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 176.53 0)
+		(at 97.79 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8992,7 +13517,7 @@
 		(fields_autoplaced yes)
 		(uuid "739011ea-bb23-4fca-b167-8a2041cf7d6c")
 		(property "Reference" "D31"
-			(at 107.6325 170.18 0)
+			(at 96.2025 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9000,7 +13525,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 172.72 0)
+			(at 96.2025 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +13533,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 176.53 0)
+			(at 97.79 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +13542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 176.53 0)
+			(at 97.79 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +13551,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 176.53 0)
+			(at 97.79 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,7 +13560,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 176.53 0)
+			(at 97.79 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +13585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 87.63 270)
+		(at 22.86 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9069,7 +13594,7 @@
 		(fields_autoplaced yes)
 		(uuid "76ed9c5c-a4bb-4185-a27b-b98746f35d13")
 		(property "Reference" "#PWR08"
-			(at 29.21 87.63 0)
+			(at 16.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +13603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 87.6299 90)
+			(at 19.05 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +13612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 87.63 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +13621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 87.63 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,7 +13630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 87.63 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,8 +13718,209 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ad906f4-c3e2-4130-9a22-f43c42b0a722")
+		(property "Reference" "TP1"
+			(at 41.91 18.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68750397-25e3-4ef7-a497-2f8b1ce0f685")
+		)
+		(instances
+			(project ""
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d13a5cd-73f1-4102-82fb-2ae09f7059bd")
+		(property "Reference" "TP7"
+			(at 41.91 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85a2f820-1845-4e5d-9bfc-f4ecf71c4d32")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ec71532-1c8d-4204-95d4-36029527db73")
+		(property "Reference" "TP6"
+			(at 41.91 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdb1e1a7-d577-493f-9f47-e05625b66b2e")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 99.06 44.45 270)
+		(at 87.63 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9203,7 +13929,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fb569bb-0321-4757-baea-24ba40f5e6ca")
 		(property "Reference" "#PWR020"
-			(at 92.71 44.45 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +13938,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 44.4499 90)
+			(at 83.82 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,7 +13947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 44.45 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +13956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 44.45 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +13965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 44.45 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9261,7 +13987,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 22.86 0)
+		(at 97.79 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9270,7 +13996,7 @@
 		(fields_autoplaced yes)
 		(uuid "8190bb7c-6a32-4e0c-ad63-9974866cc5ca")
 		(property "Reference" "D17"
-			(at 107.6325 16.51 0)
+			(at 96.2025 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9278,7 +14004,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 19.05 0)
+			(at 96.2025 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +14012,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 22.86 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +14021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 22.86 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +14030,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 22.86 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +14039,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 22.86 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +14064,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 123.19 270)
+		(at 87.63 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9347,7 +14073,7 @@
 		(fields_autoplaced yes)
 		(uuid "82049efc-002d-45e2-ac7a-e2c5cd2b8a95")
 		(property "Reference" "#PWR027"
-			(at 92.71 123.19 0)
+			(at 81.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,7 +14082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 123.1899 90)
+			(at 83.82 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9365,7 +14091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 123.19 0)
+			(at 87.63 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +14100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 123.19 0)
+			(at 87.63 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +14109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 123.19 0)
+			(at 87.63 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +14131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 166.37 270)
+		(at 22.86 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9414,7 +14140,7 @@
 		(fields_autoplaced yes)
 		(uuid "82998ca9-58f7-4c34-bcb2-966961fdc45b")
 		(property "Reference" "#PWR015"
-			(at 29.21 166.37 0)
+			(at 16.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9423,7 +14149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 166.3699 90)
+			(at 19.05 166.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9432,7 +14158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 166.37 0)
+			(at 22.86 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +14167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 166.37 0)
+			(at 22.86 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +14176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 166.37 0)
+			(at 22.86 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +14334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 154.94 270)
+		(at 87.63 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9617,7 +14343,7 @@
 		(fields_autoplaced yes)
 		(uuid "83b57514-d0ed-40cc-9cd5-ae5aefff7008")
 		(property "Reference" "#PWR030"
-			(at 92.71 154.94 0)
+			(at 81.28 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +14352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 154.9399 90)
+			(at 83.82 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,7 +14361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 154.94 0)
+			(at 87.63 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,7 +14370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 154.94 0)
+			(at 87.63 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +14379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 154.94 0)
+			(at 87.63 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +14401,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 166.37 0)
+		(at 33.02 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9684,7 +14410,7 @@
 		(fields_autoplaced yes)
 		(uuid "862a2e6c-cccd-44f5-978c-e988df7a8811")
 		(property "Reference" "D14"
-			(at 44.1325 160.02 0)
+			(at 31.4325 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +14418,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 162.56 0)
+			(at 31.4325 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +14426,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 166.37 0)
+			(at 33.02 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +14435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 166.37 0)
+			(at 33.02 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +14444,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 166.37 0)
+			(at 33.02 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,7 +14453,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 166.37 0)
+			(at 33.02 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,6 +14545,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "889003eb-7157-4e24-bee2-5d6a3a67704b")
+		(property "Reference" "TP32"
+			(at 107.95 183.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 185.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5ad57fa-e153-40b8-ad79-37ad8588d7a7")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 158.75 41.91 0)
 		(unit 1)
@@ -9887,8 +14680,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bca23a0-f0e8-4ee4-aeca-1a1c056391f2")
+		(property "Reference" "TP22"
+			(at 107.95 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3ca4f2c-8c3b-45bd-bea5-263859ff61f0")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d0cb418-5888-416b-a97e-550fd6358acc")
+		(property "Reference" "TP28"
+			(at 107.95 140.2079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 142.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d93d15e-27d1-40c2-b000-092b37c87862")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 226.06 83.82 0)
+		(at 226.06 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9896,7 +14823,7 @@
 		(dnp no)
 		(uuid "8d747397-65fc-4701-bc0b-9f26e63f6a03")
 		(property "Reference" "#PWR01"
-			(at 226.06 90.17 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +14832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 85.598 0)
+			(at 229.87 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +14840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 83.82 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +14849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 83.82 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +14858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 83.82 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,7 +14880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 166.37 270)
+		(at 87.63 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9962,7 +14889,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e36bb3a-da60-40c9-9aa5-2679bc3efc5d")
 		(property "Reference" "#PWR031"
-			(at 92.71 166.37 0)
+			(at 81.28 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +14898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 166.3699 90)
+			(at 83.82 166.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,7 +14907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 166.37 0)
+			(at 87.63 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9989,7 +14916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 166.37 0)
+			(at 87.63 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,7 +14925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 166.37 0)
+			(at 87.63 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10020,7 +14947,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 44.45 0)
+		(at 33.02 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10029,7 +14956,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eb42b55-d3ec-4210-b858-8a1f12eae45a")
 		(property "Reference" "D3"
-			(at 44.1325 38.1 0)
+			(at 31.4325 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +14964,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 40.64 0)
+			(at 31.4325 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +14972,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 44.45 0)
+			(at 33.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +14981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 44.45 0)
+			(at 33.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +14990,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 44.45 0)
+			(at 33.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10072,7 +14999,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 44.45 0)
+			(at 33.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +15024,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 176.53 0)
+		(at 33.02 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10106,7 +15033,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fb0c13a-1121-420d-b53e-f98ae4c64931")
 		(property "Reference" "D15"
-			(at 44.1325 170.18 0)
+			(at 31.4325 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +15041,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 172.72 0)
+			(at 31.4325 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +15049,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 176.53 0)
+			(at 33.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +15058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 176.53 0)
+			(at 33.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,7 +15067,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 176.53 0)
+			(at 33.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +15076,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 176.53 0)
+			(at 33.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,6 +15094,140 @@
 			(project "smerf8-led"
 				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91be6972-2b06-4986-a73e-c140181c3c3d")
+		(property "Reference" "TP3"
+			(at 41.91 39.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 42.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1318c46b-4503-443f-95f8-ed94bd4f976f")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93793d5b-6f21-4f2d-b62f-78a11030ff1a")
+		(property "Reference" "TP9"
+			(at 41.91 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c1fbb57-0065-47ff-95fe-5146a7b66cd6")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10378,7 +15439,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 144.78 270)
+		(at 87.63 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10387,7 +15448,7 @@
 		(fields_autoplaced yes)
 		(uuid "968a78ef-9434-45f8-9d96-741f221906a7")
 		(property "Reference" "#PWR029"
-			(at 92.71 144.78 0)
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +15457,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 144.7799 90)
+			(at 83.82 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,7 +15466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 144.78 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10414,7 +15475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 144.78 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +15484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 144.78 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,33 +15505,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 45.72 77.47 0)
+		(lib_id "Connector:TestPoint")
+		(at 105.41 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9c481aea-cfcb-4265-ab15-4a3807a7fc03")
-		(property "Reference" "D6"
-			(at 44.1325 71.12 0)
+		(uuid "9a184ed2-3a03-438e-a752-993ff207ad75")
+		(property "Reference" "TP19"
+			(at 107.95 39.8779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 44.1325 73.66 0)
+		(property "Value" "TestPoint"
+			(at 107.95 42.4179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 77.47 0)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10479,7 +15542,72 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 77.47 0)
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "190cdeb5-f73a-49aa-b600-dd4ef600cadc")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c481aea-cfcb-4265-ab15-4a3807a7fc03")
+		(property "Reference" "D6"
+			(at 31.4325 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 31.4325 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10488,7 +15616,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 77.47 0)
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,7 +15625,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 77.47 0)
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10590,7 +15718,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 22.86 270)
+		(at 22.86 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10599,7 +15727,7 @@
 		(fields_autoplaced yes)
 		(uuid "a32940f4-3dd4-42d4-967b-6d9e7f3bc786")
 		(property "Reference" "#PWR02"
-			(at 29.21 22.86 0)
+			(at 16.51 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +15736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 22.8599 90)
+			(at 19.05 22.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +15745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 22.86 0)
+			(at 22.86 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +15754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 22.86 0)
+			(at 22.86 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +15763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 22.86 0)
+			(at 22.86 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,33 +15852,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 45.72 22.86 0)
+		(lib_id "Connector:TestPoint")
+		(at 39.37 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a8cb0b3b-6986-4f2a-a2a6-6c23ecf0ac09")
-		(property "Reference" "D1"
-			(at 44.1325 16.51 0)
+		(uuid "a47d9618-06f7-4157-835e-b50bc27720b9")
+		(property "Reference" "TP2"
+			(at 41.91 29.7179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 44.1325 19.05 0)
+		(property "Value" "TestPoint"
+			(at 41.91 32.2579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 22.86 0)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +15889,139 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 22.86 0)
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bd7b547-f005-4fc6-986e-a353367d4e48")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 215.9 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a791afa6-db25-48da-9062-ff605754e583")
+		(property "Reference" "#FLG01"
+			(at 213.995 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 212.09 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e33d95f-c690-436a-85ed-73457e447a80")
+		)
+		(instances
+			(project ""
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8cb0b3b-6986-4f2a-a2a6-6c23ecf0ac09")
+		(property "Reference" "D1"
+			(at 31.4325 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 31.4325 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 33.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +16030,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 22.86 0)
+			(at 33.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +16039,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 22.86 0)
+			(at 33.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,6 +16057,73 @@
 			(project ""
 				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a92198ff-6971-49ef-8df8-56b6db7d9a0a")
+		(property "Reference" "TP29"
+			(at 107.95 150.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b531a994-29c4-4ceb-83d8-8e7319e0560c")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -10870,7 +16199,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 123.19 0)
+		(at 33.02 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10879,7 +16208,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad1c4313-f3a7-4223-afe7-f671f801fd6a")
 		(property "Reference" "D10"
-			(at 44.1325 116.84 0)
+			(at 31.4325 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +16216,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 119.38 0)
+			(at 31.4325 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,7 +16224,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 123.19 0)
+			(at 33.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10904,7 +16233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 123.19 0)
+			(at 33.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,7 +16242,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 123.19 0)
+			(at 33.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10922,7 +16251,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 123.19 0)
+			(at 33.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,6 +16269,73 @@
 			(project "smerf8-led"
 				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1a2c3fe-9ce5-4652-ad77-40ae3c32276c")
+		(property "Reference" "TP13"
+			(at 41.91 150.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e655eb4f-7aae-4882-a06a-d1830052c3db")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -11015,7 +16411,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 99.06 0)
+		(at 33.02 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11024,7 +16420,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6cf6f0f-34bc-4b26-ae27-69244d84d8cb")
 		(property "Reference" "D8"
-			(at 44.1325 92.71 0)
+			(at 31.4325 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +16428,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 95.25 0)
+			(at 31.4325 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11040,7 +16436,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 99.06 0)
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,7 +16445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 99.06 0)
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,7 +16454,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 99.06 0)
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +16463,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 99.06 0)
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,7 +16488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 87.63 270)
+		(at 87.63 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11101,7 +16497,7 @@
 		(fields_autoplaced yes)
 		(uuid "b782bb61-5a60-41bb-9b64-eacb6aa9f5d9")
 		(property "Reference" "#PWR024"
-			(at 92.71 87.63 0)
+			(at 81.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +16506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 87.6299 90)
+			(at 83.82 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,7 +16515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 87.63 0)
+			(at 87.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11128,7 +16524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 87.63 0)
+			(at 87.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,7 +16533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 87.63 0)
+			(at 87.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,7 +16555,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 133.35 0)
+		(at 33.02 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11168,7 +16564,7 @@
 		(fields_autoplaced yes)
 		(uuid "b79d31e4-81f3-48a3-b192-9405a964957e")
 		(property "Reference" "D11"
-			(at 44.1325 127 0)
+			(at 31.4325 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +16572,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 129.54 0)
+			(at 31.4325 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,7 +16580,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 133.35 0)
+			(at 33.02 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,7 +16589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 133.35 0)
+			(at 33.02 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +16598,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 133.35 0)
+			(at 33.02 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +16607,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 133.35 0)
+			(at 33.02 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,7 +16632,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 133.35 270)
+		(at 22.86 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11245,7 +16641,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8e16dd9-ec74-4036-97b8-862f0a9e6691")
 		(property "Reference" "#PWR012"
-			(at 29.21 133.35 0)
+			(at 16.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +16650,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 133.3499 90)
+			(at 19.05 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +16659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 133.35 0)
+			(at 22.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11272,7 +16668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 133.35 0)
+			(at 22.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,7 +16677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 133.35 0)
+			(at 22.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,6 +16698,7 @@
 		)
 	)
 	(symbol
+		(lib_name "ERF8-ERM8-040-DV_1")
 		(lib_id "kicad-mza:ERF8-ERM8-040-DV")
 		(at 265.43 29.21 0)
 		(unit 2)
@@ -11312,7 +16709,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9d25127-782a-4e66-a7fb-83dc12b5d8b9")
 		(property "Reference" "U1"
-			(at 265.43 16.51 0)
+			(at 265.43 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11320,14 +16717,14 @@
 			)
 		)
 		(property "Value" "ERF8-ERM8-040-DV"
-			(at 265.43 19.05 0)
+			(at 265.43 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "cody:ERF8-040-EM2"
+		(property "Footprint" "Library:ERF8-040-EM2"
 			(at 278.13 29.21 0)
 			(effects
 				(font
@@ -11815,7 +17212,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 111.76 0)
+		(at 33.02 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11824,7 +17221,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd5dae85-ebf7-41df-8f68-033a7b744b17")
 		(property "Reference" "D9"
-			(at 44.1325 105.41 0)
+			(at 31.4325 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11832,7 +17229,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 107.95 0)
+			(at 31.4325 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11840,7 +17237,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 111.76 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,7 +17246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 111.76 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11858,7 +17255,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 111.76 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11867,7 +17264,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 111.76 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +17289,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 166.37 0)
+		(at 97.79 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11901,7 +17298,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdad8984-a8fe-4d4e-8e7e-00468b0e0125")
 		(property "Reference" "D30"
-			(at 107.6325 160.02 0)
+			(at 96.2025 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,7 +17306,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 162.56 0)
+			(at 96.2025 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,7 +17314,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 166.37 0)
+			(at 97.79 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +17323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 166.37 0)
+			(at 97.79 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +17332,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 166.37 0)
+			(at 97.79 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11944,7 +17341,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 166.37 0)
+			(at 97.79 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11969,7 +17366,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 176.53 270)
+		(at 87.63 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11978,7 +17375,7 @@
 		(fields_autoplaced yes)
 		(uuid "be738f23-55bf-46c4-9568-8932f5d39c97")
 		(property "Reference" "#PWR032"
-			(at 92.71 176.53 0)
+			(at 81.28 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +17384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 176.5299 90)
+			(at 83.82 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +17393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 176.53 0)
+			(at 87.63 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,7 +17402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 176.53 0)
+			(at 87.63 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12014,7 +17411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 176.53 0)
+			(at 87.63 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,33 +17432,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 45.72 144.78 0)
+		(lib_id "Connector:TestPoint")
+		(at 105.41 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c3e5d09d-d118-40fb-8634-4b945b7c16c6")
-		(property "Reference" "D12"
-			(at 44.1325 138.43 0)
+		(uuid "c3587800-6c68-4129-bed7-aace55860212")
+		(property "Reference" "TP24"
+			(at 107.95 94.4879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 44.1325 140.97 0)
+		(property "Value" "TestPoint"
+			(at 107.95 97.0279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 144.78 0)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12070,7 +17469,72 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 144.78 0)
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4356e17e-4f96-4cfc-9106-f82bd9f04df9")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e5d09d-d118-40fb-8634-4b945b7c16c6")
+		(property "Reference" "D12"
+			(at 31.4325 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 31.4325 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12079,7 +17543,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 144.78 0)
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12088,7 +17552,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 144.78 0)
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12112,8 +17576,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5bc9bca-88ad-4379-ab19-c7752f4fd22c")
+		(property "Reference" "TP14"
+			(at 41.91 161.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdf582c6-95d8-4158-8421-8f402fe1dfe4")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 35.56 34.29 270)
+		(at 22.86 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12122,7 +17653,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6291fc7-9dcc-4691-beef-ec0e7f611257")
 		(property "Reference" "#PWR03"
-			(at 29.21 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,7 +17662,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 34.2899 90)
+			(at 19.05 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,7 +17671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12149,7 +17680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12158,7 +17689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,7 +17711,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 144.78 270)
+		(at 22.86 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12189,7 +17720,7 @@
 		(fields_autoplaced yes)
 		(uuid "c710bc9e-1a41-4412-8165-9a85f60ebf56")
 		(property "Reference" "#PWR013"
-			(at 29.21 144.78 0)
+			(at 16.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +17729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 144.7799 90)
+			(at 19.05 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,7 +17738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 144.78 0)
+			(at 22.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12216,7 +17747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 144.78 0)
+			(at 22.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,7 +17756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 144.78 0)
+			(at 22.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12247,7 +17778,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 154.94 0)
+		(at 97.79 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12256,7 +17787,7 @@
 		(fields_autoplaced yes)
 		(uuid "c74d28d7-925a-4aa1-b52a-aef7f1871007")
 		(property "Reference" "D29"
-			(at 107.6325 148.59 0)
+			(at 96.2025 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12264,7 +17795,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 151.13 0)
+			(at 96.2025 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12272,7 +17803,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 154.94 0)
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12281,7 +17812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 154.94 0)
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12290,7 +17821,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 154.94 0)
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12299,7 +17830,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 154.94 0)
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12528,7 +18059,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 133.35 270)
+		(at 87.63 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12537,7 +18068,7 @@
 		(fields_autoplaced yes)
 		(uuid "c922bb69-5346-449c-bec5-e80c478498bb")
 		(property "Reference" "#PWR028"
-			(at 92.71 133.35 0)
+			(at 81.28 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +18077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 133.3499 90)
+			(at 83.82 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +18086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 133.35 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +18095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 133.35 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12573,7 +18104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 133.35 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12594,8 +18125,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9e8293a-c06f-4ce8-be1d-558e3f4205fc")
+		(property "Reference" "TP26"
+			(at 107.95 118.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 121.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5240ea6-f050-4a7b-a390-547f311f0b3a")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cad8b382-0106-4329-8226-55022674dfcb")
+		(property "Reference" "TP8"
+			(at 41.91 94.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 97.0279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f7d57a-ecba-4ab1-908e-e1ac026ecde7")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 99.06 66.04 270)
+		(at 87.63 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12604,7 +18269,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb205049-7f30-4727-a5e4-725815c53d4f")
 		(property "Reference" "#PWR022"
-			(at 92.71 66.04 0)
+			(at 81.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +18278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 66.0399 90)
+			(at 83.82 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12622,7 +18287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 66.04 0)
+			(at 87.63 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +18296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 66.04 0)
+			(at 87.63 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,7 +18305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 66.04 0)
+			(at 87.63 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12655,6 +18320,207 @@
 			(project "smerf8-led"
 				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1dc372a-07da-4afe-9d13-e888838237dc")
+		(property "Reference" "TP25"
+			(at 107.95 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d370691a-3864-4049-9395-e0223a86bffe")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42c04d3-a364-44c4-af6b-0e500f3ce958")
+		(property "Reference" "TP5"
+			(at 41.91 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 64.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec1eb743-4d4b-4186-96e5-6bd40b420c1d")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d7d6da-1c0d-47d0-a302-8e8bdec44123")
+		(property "Reference" "TP21"
+			(at 107.95 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 64.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bd108d4-417c-4215-af3a-35f4cf5d4a32")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -12730,7 +18596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 44.45 270)
+		(at 22.86 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12739,7 +18605,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc8850d4-387d-4d80-8b20-a178528cbebc")
 		(property "Reference" "#PWR04"
-			(at 29.21 44.45 0)
+			(at 16.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,7 +18614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 44.4499 90)
+			(at 19.05 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12757,7 +18623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 44.45 0)
+			(at 22.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12766,7 +18632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 44.45 0)
+			(at 22.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12775,7 +18641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 44.45 0)
+			(at 22.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,33 +18662,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 109.22 144.78 0)
+		(lib_id "Connector:TestPoint")
+		(at 39.37 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dddaed62-2932-43d2-b39a-912daa5786d6")
-		(property "Reference" "D28"
-			(at 107.6325 138.43 0)
+		(uuid "dd69b477-209c-44ae-859d-1255780fe232")
+		(property "Reference" "TP4"
+			(at 41.91 51.3079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 107.6325 140.97 0)
+		(property "Value" "TestPoint"
+			(at 41.91 53.8479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 144.78 0)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12831,7 +18699,72 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 144.78 0)
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "475195a2-d0db-47f0-b522-062dddc28ed8")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 97.79 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dddaed62-2932-43d2-b39a-912daa5786d6")
+		(property "Reference" "D28"
+			(at 96.2025 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 96.2025 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 97.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12840,7 +18773,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 144.78 0)
+			(at 97.79 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12849,7 +18782,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 144.78 0)
+			(at 97.79 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12951,7 +18884,7 @@
 		(fields_autoplaced yes)
 		(uuid "e468980d-a4b8-4060-8014-58842f254c27")
 		(property "Reference" "U1"
-			(at 191.77 15.24 0)
+			(at 191.77 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12959,14 +18892,14 @@
 			)
 		)
 		(property "Value" "ERF8-ERM8-040-DV"
-			(at 191.77 17.78 0)
+			(at 191.77 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "cody:ERF8-040-EM2"
+		(property "Footprint" "Library:ERF8-040-EM2"
 			(at 204.47 45.72 0)
 			(effects
 				(font
@@ -13249,6 +19182,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e96e54-82f6-4d93-a12d-4e0cc1380dd4")
+		(property "Reference" "TP18"
+			(at 107.95 29.7179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 32.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e68a11d-8c5b-4982-acf9-325bba3c67c0")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 58.42 111.76 90)
 		(unit 1)
@@ -13317,8 +19317,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e611af91-470d-4ad9-8414-49719e91d3fd")
+		(property "Reference" "TP11"
+			(at 41.91 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 131.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cody:TestPoint_Plated_Hole_D1.1mm"
+			(at 44.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bda3526-a498-43d3-b118-872d9ab7e054")
+		)
+		(instances
+			(project "smerf8-led"
+				(path "/937e6c2f-1744-4cf6-9e96-ec9166fa3cbe"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 35.56 154.94 270)
+		(at 22.86 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13327,7 +19394,7 @@
 		(fields_autoplaced yes)
 		(uuid "e780a9f5-aef4-46d7-8f6d-5af134b76edb")
 		(property "Reference" "#PWR014"
-			(at 29.21 154.94 0)
+			(at 16.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13336,7 +19403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 154.9399 90)
+			(at 19.05 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13345,7 +19412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 154.94 0)
+			(at 22.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13354,7 +19421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 154.94 0)
+			(at 22.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,7 +19430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 154.94 0)
+			(at 22.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13385,7 +19452,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 55.88 0)
+		(at 33.02 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13394,7 +19461,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb054ec5-e515-4f1a-b8ef-3e21af70485f")
 		(property "Reference" "D4"
-			(at 44.1325 49.53 0)
+			(at 31.4325 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13402,7 +19469,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.1325 52.07 0)
+			(at 31.4325 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13410,7 +19477,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 45.72 55.88 0)
+			(at 33.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +19486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 55.88 0)
+			(at 33.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13428,7 +19495,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 45.72 55.88 0)
+			(at 33.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13437,7 +19504,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 55.88 0)
+			(at 33.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13530,7 +19597,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 187.96 0)
+		(at 97.79 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13539,7 +19606,7 @@
 		(fields_autoplaced yes)
 		(uuid "efca5bfa-7de5-4352-951a-14fa0343245e")
 		(property "Reference" "D32"
-			(at 107.6325 181.61 0)
+			(at 96.2025 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13547,7 +19614,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 184.15 0)
+			(at 96.2025 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13555,7 +19622,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 187.96 0)
+			(at 97.79 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13564,7 +19631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 187.96 0)
+			(at 97.79 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13573,7 +19640,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 187.96 0)
+			(at 97.79 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13582,7 +19649,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 187.96 0)
+			(at 97.79 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13675,7 +19742,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 77.47 270)
+		(at 87.63 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13684,7 +19751,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3785ba0-9596-4e39-8a9f-d5d451ebb3a1")
 		(property "Reference" "#PWR023"
-			(at 92.71 77.47 0)
+			(at 81.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13693,7 +19760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 77.4699 90)
+			(at 83.82 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13702,7 +19769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 77.47 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13711,7 +19778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 77.47 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13720,7 +19787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 77.47 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13742,7 +19809,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 109.22 123.19 0)
+		(at 97.79 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13751,7 +19818,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb0cb407-364c-482f-a85e-e08055338f55")
 		(property "Reference" "D26"
-			(at 107.6325 116.84 0)
+			(at 96.2025 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +19826,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.6325 119.38 0)
+			(at 96.2025 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13767,7 +19834,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 109.22 123.19 0)
+			(at 97.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13776,7 +19843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 123.19 0)
+			(at 97.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,7 +19852,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 123.19 0)
+			(at 97.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,7 +19861,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 123.19 0)
+			(at 97.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13819,7 +19886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 66.04 270)
+		(at 22.86 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13828,7 +19895,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb82fc31-c339-4eb2-b084-78f9267e7dbe")
 		(property "Reference" "#PWR06"
-			(at 29.21 66.04 0)
+			(at 16.51 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13837,7 +19904,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 66.0399 90)
+			(at 19.05 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13846,7 +19913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 66.04 0)
+			(at 22.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13855,7 +19922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 66.04 0)
+			(at 22.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13864,7 +19931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 66.04 0)
+			(at 22.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
